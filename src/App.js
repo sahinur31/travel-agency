@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Blogs from './pages/home/blogs/Blogs';
 
 function App() {
   return (
     <div className="App">
-      <p className='line-through'>This is my</p>
+      <Blogs />
     </div>
   );
 }
